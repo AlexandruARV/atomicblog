@@ -93,7 +93,7 @@ function Posts() {
 
 function FormAddPost() {
   const { onAddPost } = usePosts();
-
+  const a = 10;
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
 
